@@ -1,4 +1,4 @@
 numpy==1.22.0
 scipy==1.7.0
 imutils==0.5.4
-opencv_python==3.4.18.65
+opencv_contrib_python==3.4.18.65
