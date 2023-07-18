@@ -106,7 +106,7 @@ class MultiObjectTrackingClass:
         new_video.release() #eleases the VideoWriter object, finalizing and saving the output video file.
 
 if __name__ == '__main__':
-    input_path = 'C:/Users/Urvi Latnekar/Desktop/Data Science/ProjectPro/Object Tracking/Data/car_driving.mp4'
+    input_path = '../../input/car_driving.mp4'
     objTrack = MultiObjectTrackingClass(input_path, tracker_index = 6)
     objTrack.multi_object_tracking_main()
 
